@@ -60,7 +60,33 @@ Weighing Machines </br>
 ## CIRCUIT DIAGRAM
 
 ## PROGRAM
+int button=2;
+int led=3;
+int x;
+
+void setup() {
+  // put your setup code here, to run once:
+  pinMode(button,INPUT);
+  pinMode(led,OUTPUT);
+
+}
+
+void loop() {
+  // put your main code here, to run repeatedly:
+  x=digitalRead(button);
+  if (x==1){
+    digitalWrite(led,HIGH);
+
+  }
+  else{
+    digitalWrite(led,LOW);
+  }
+
+}
 
 ## OUTPUT
+<img width="490" alt="image" src="https://github.com/anishkumar-Embedded/Led-control-using-Arduino/assets/155261096/2cd6d835-0b9f-482a-abc2-a6a5c87a3177">
+
+
 
 ## RESULT

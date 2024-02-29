@@ -64,25 +64,25 @@ int button=2;<br />
 int led=3;<br />
 int x;<br />
 
-void setup() {
-  // put your setup code here, to run once:
-  pinMode(button,INPUT);
-  pinMode(led,OUTPUT);
+void setup() { <br />
+  // put your setup code here, to run once:<br />
+  pinMode(button,INPUT); <br />
+  pinMode(led,OUTPUT); <br />
 
-}
+}<br />
 
-void loop() {
-  // put your main code here, to run repeatedly:
-  x=digitalRead(button);
-  if (x==1){
-    digitalWrite(led,HIGH);
+void loop() { <br />
+  // put your main code here, to run repeatedly:<br />
+  x=digitalRead(button);<br />
+  if (x==1){<br />
+    digitalWrite(led,HIGH);<br />
 
-  }
-  else{
-    digitalWrite(led,LOW);
-  }
-
-}
+  }<br />
+  else{<br />
+    digitalWrite(led,LOW);<br />
+  }<br />
+<br />
+}<br />
 
 
 ## OUTPUT

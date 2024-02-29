@@ -60,9 +60,9 @@ Weighing Machines </br>
 ## CIRCUIT DIAGRAM
 
 ## PROGRAM
-int button=2;
-int led=3;
-int x;
+int button=2;<br />
+int led=3;<br />
+int x;<br />
 
 void setup() {
   // put your setup code here, to run once:

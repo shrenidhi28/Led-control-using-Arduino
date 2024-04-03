@@ -1,3 +1,6 @@
+#### C.SHRENIDHI
+#### 212223040196
+
 # Led-control-using-Arduino
 
 ## AIM
@@ -58,6 +61,8 @@ Emergency Signaling System </br>
 Weighing Machines </br>
 
 ## CIRCUIT DIAGRAM
+<img width="479" alt="image" src="https://github.com/shrenidhi28/Led-control-using-Arduino/assets/155261096/92e4f689-8015-4d9a-8d56-8bdbf753f37d">
+
 
 ## PROGRAM
 int button=2;<br />
